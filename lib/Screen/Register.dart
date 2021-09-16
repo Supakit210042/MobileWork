@@ -47,7 +47,7 @@ final formkey = GlobalKey<FormState>();
     return Container(
       margin: EdgeInsets.all(30),
       child: TextFormField(
-                  style: TextStyle(color: primaryColor,
+                  style: TextStyle(color: TColor,
                   fontSize: 24,
                   ),
                    decoration: InputDecoration(
@@ -72,7 +72,7 @@ final formkey = GlobalKey<FormState>();
     return Container(
       margin: EdgeInsets.all(30),
       child: TextFormField(
-                  style: TextStyle(color: primaryColor,
+                  style: TextStyle(color: TColor,
                   fontSize: 24,
                   ),
                    decoration: InputDecoration(
@@ -99,7 +99,7 @@ final formkey = GlobalKey<FormState>();
       
       child: TextFormField(
                 keyboardType: TextInputType.emailAddress,
-                  style: TextStyle(color: primaryColor,
+                  style: TextStyle(color: TColor,
                   fontSize: 24,
                   ),
                    decoration: InputDecoration(
